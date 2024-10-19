@@ -34,8 +34,8 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
-    --pink: #ff3258;
+    --black: #21212a;
+    --pink: #39ac4a;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header1.jpg');
+        url('./images/header4.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -444,6 +444,14 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     align-items: center;
 }
+
+.app-icon {
+    width: 45px; /* Adjust the size of the icon */
+    height: 45px;
+    margin-right: 4px; /* Add some spacing between the icon and the text */
+    vertical-align: middle; /* Aligns the icon with the text */
+}
+
 
 @media(max-width: 900px) {
     .work__box {
@@ -498,6 +506,13 @@ body:not(.user-is-tabbing) a:focus {
         margin: 0 0 0 10rem;
     }
 }
+
+.work__image {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* This adds the rounded corners */
+}
+
 
 @media(max-width: 900px) {
     .work__code {
